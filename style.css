@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    border: 5px dotted red;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.input-text {
+    width: 500px;
+    height: 50px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    align-self: center;
+    text-align: center;
+}
+
+.btn {
+    height: 50px;
+    width: 250px;
+    align-self: center;
+    background-color: rgb(0, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(27, 107, 107);
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+}
+
+.card-image {
+    width: 250px;
+    height: 250px;
+}
